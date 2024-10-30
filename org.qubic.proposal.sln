@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.qubic.proposal.api", "org.qubic.proposal.api\org.qubic.proposal.api.csproj", "{94B71ABE-C82A-4923-838F-2732A2AA9501}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "org.qubic.proposal.api", "org.qubic.proposal.api\org.qubic.proposal.api.csproj", "{94B71ABE-C82A-4923-838F-2732A2AA9501}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.qubic.common.caching", "org.qubic.common.caching\org.qubic.common.caching.csproj", "{D48427AA-D800-47A0-A410-31F66EBCE443}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "org.qubic.common.caching", "org.qubic.common.caching\org.qubic.common.caching.csproj", "{D48427AA-D800-47A0-A410-31F66EBCE443}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library", "library", "{D36E42AC-0AD3-42C2-A305-BE0C79D37AED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.qubic.rpc.client", "org.qubic.rpc.client\org.qubic.rpc.client.csproj", "{EC3D8A5D-055B-4D10-B107-3828CC0787F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "org.qubic.rpc.client", "org.qubic.rpc.client\org.qubic.rpc.client.csproj", "{EC3D8A5D-055B-4D10-B107-3828CC0787F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "org.qubic.proposal.api.test", "org.qubic.proposal.api.test\org.qubic.proposal.api.test.csproj", "{624AD345-4148-4669-B2D4-88C118BFED14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "org.qubic.proposal.api.test", "org.qubic.proposal.api.test\org.qubic.proposal.api.test.csproj", "{624AD345-4148-4669-B2D4-88C118BFED14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "li.qubic.lib", "..\..\csharp\li.qubic.lib\li.qubic.lib.csproj", "{91382B37-D0C3-463C-8F4C-4A510CAB44A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{624AD345-4148-4669-B2D4-88C118BFED14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{624AD345-4148-4669-B2D4-88C118BFED14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{624AD345-4148-4669-B2D4-88C118BFED14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91382B37-D0C3-463C-8F4C-4A510CAB44A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91382B37-D0C3-463C-8F4C-4A510CAB44A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91382B37-D0C3-463C-8F4C-4A510CAB44A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91382B37-D0C3-463C-8F4C-4A510CAB44A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +48,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D48427AA-D800-47A0-A410-31F66EBCE443} = {D36E42AC-0AD3-42C2-A305-BE0C79D37AED}
 		{EC3D8A5D-055B-4D10-B107-3828CC0787F7} = {D36E42AC-0AD3-42C2-A305-BE0C79D37AED}
+		{91382B37-D0C3-463C-8F4C-4A510CAB44A5} = {D36E42AC-0AD3-42C2-A305-BE0C79D37AED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C788777E-D9BA-4ECC-AEEA-232110494D86}

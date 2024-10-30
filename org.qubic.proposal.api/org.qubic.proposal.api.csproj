@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\csharp\li.qubic.lib\li.qubic.lib.csproj" />
     <ProjectReference Include="..\org.qubic.common.caching\org.qubic.common.caching.csproj" />
     <ProjectReference Include="..\org.qubic.rpc.client\org.qubic.rpc.client.csproj" />
   </ItemGroup>
