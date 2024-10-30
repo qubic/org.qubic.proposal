@@ -1,0 +1,6 @@
+@org.qubic.proposal.api_HostAddress = http://localhost:5238
+
+GET {{org.qubic.proposal.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
